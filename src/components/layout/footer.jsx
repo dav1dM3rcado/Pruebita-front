@@ -88,7 +88,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> <br /> <br />
       <Inicio/>
     </div>
   );
