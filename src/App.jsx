@@ -1,4 +1,5 @@
 import Footer from "./components/Layout/footer";
+import Hola from "./components/home/Hola";
 
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 
@@ -11,8 +12,13 @@ function App() {
     
      <BrowserRouter>
      <Routes>
+      
      <Route path="/" element={<Footer/>}/>
-     
+
+     </Routes>
+     <Routes>
+     <Route path="/Hola" element={<Hola />} />
+
      </Routes>
      
      </BrowserRouter>
